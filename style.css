@@ -1,0 +1,16 @@
+table{
+    border-spacing: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+tbody{
+    background-color:lightgrey;
+    font-size: 18px;
+    border-spacing: 0px;
+}
+
+
+td {
+    width: 100px;
+}
