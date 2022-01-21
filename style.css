@@ -1,24 +1,25 @@
 body {
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
     justify-content: center;
 }
 
 table{
-    border-spacing: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-spacing: 0px;
 }
 
-
 tbody{
-    background-color:lightgrey;
-    font-size: 18px;
-    border-spacing: 0px;
-    font-weight: bold;
+    background-color:#F2F2F2;
+    font-size: 22px;
+}
+
+tbody tr {
+    
 }
 
 
 td {
-    width: 120px;
-    border: solid 0.5px black;
+    width: 150px;
+    height: 20px;
 }
