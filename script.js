@@ -34,10 +34,10 @@ function criarTabela(array) {
 
         acao.innerHTML = array[i].ticker
         if (array[i].sentiment === "Bullish") {
-            sentimento.innerText = array[i].sentiment	
+            sentimento.innerHTML = `${array[i].sentiment} &#128002`
             linha.style.background = '#00fa9a'
         } else {
-            sentimento.innerText = array[i].sentiment	
+            sentimento.innerHTML = `${array[i].sentiment} &#128059`
             linha.style.background = '#f08080'
         }
         comentarios.innerHTML = array[i].no_of_comments
